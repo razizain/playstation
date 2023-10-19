@@ -1,0 +1,182 @@
+*, *::before, *::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFC400;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.flex-container {
+    display: flex;
+    background-color: #0047E6;
+   width: 1200px;
+   text-align: left; margin: auto;
+   border-radius: 15px;
+   gap: 28px;
+   align-items: center;
+}
+.menu {
+    align-items: center;
+    text-decoration: underline;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 8px;
+}
+.menu li {
+    color: white;
+}
+.img {
+    width: 100%;
+    padding: 0 10px;
+}
+.nav {
+width: 100%;
+padding: 0 10px;
+display: flex;
+align-items: center;
+}
+.razi {
+    width: 100%;
+    text-align: right;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px
+}
+.book {
+    border-radius: 40px;
+    background-color: #FFC400;
+    text-align: center;
+    height: 40px;
+    right: 0;
+}
+.book p {
+    color: #0047E6;
+}
+.main {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    text-align: left;
+}
+.header {
+    display: flex;
+    width: 100%;
+}
+.main h1 {
+    color: white;
+}
+.main p {
+    color: white;
+}
+.pic {
+    display: flex;
+    width: 100%;
+}
+.white {
+    color: white;
+}
+.hero {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 1200px;
+    margin: auto;
+    border-radius: 15px;
+    gap: 5px;
+    align-items: center;
+}
+.hello {
+    color: #0047E6;
+    width: 100%;
+}
+.hello p {
+    color: black;
+    text-transform: capitalize;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    border-radius: 15px;
+    width: 100%;
+    padding: 10px;
+}
+.grid-item {
+    background-color: #ededed;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    width: 100%;
+    border-radius: 15px;
+}
+.devine {
+    background-color: #0047E6;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    width: 100%;
+    border-radius: 15px;
+}
+.fly {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: left;
+}
+.ahmed {
+    display: flex;
+    text-align: center;
+    color: black;
+    width: 100%;
+}
+.end {
+    border-radius: 15px;
+    background-color: #0047E6;
+    text-align: center;
+    margin: auto;
+}
+.end p {
+    color: white;
+}
+.united {
+    display: flex;
+    width: 100%;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+}
+.flex-container-plus {
+       display: flex;
+    background-color: #f8f8fa;
+   width: 1200px;
+   text-align: left; margin: auto;
+   border-radius: 15px;
+   gap: 28px;
+   align-items: center; 
+}
+.final {
+    display: flex;
+    color: #0047E6;
+    margin: 50px;
+    width: 100%;
+}
+.final p {
+    color: black;
+}
+.final-2 {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    margin: 50px;
+    padding: 0 50px;
+}
+.flex-container-plus li {
+    color: black;
+}

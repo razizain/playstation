@@ -1,0 +1,142 @@
+body {
+    background-color: #ffc400;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.flex-container {
+    display: flex;
+    background-color: #0047E6;
+   width: 1200px;
+   text-align: left; margin: auto;
+   border-radius: 15px;
+   gap: 28px;
+   align-items: center;
+}
+.header {
+    display: flex;
+    width: 100%;
+}
+.img {
+    width: 100%;
+    padding: 0 10px;
+}
+.nav {
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    }
+.menu {
+        align-items: center;
+        text-decoration: underline;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        gap: 8px;
+    }
+.menu li {
+        color: white;
+    }
+.book {
+        border-radius: 40px;
+        background-color: #FFC400;
+        text-align: center;
+        height: 62px;
+        right: 0;
+        display: flex;
+        padding: 15px 15px;
+        margin: 20px;
+    }
+.book p {
+        color: #0047E6;
+    }
+.box {
+    background-color: white;
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    border-radius: 12px;
+    margin: auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+}
+.grid-container > div {
+    background-color: #EDEDED;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 15px;
+}
+.hero {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 1200px;
+    margin: auto;
+    border-radius: 15px;
+    gap: 50px;
+    align-items: center;
+    padding: 5px;
+}
+.ahmed {
+    display: flex;
+    text-align: center;
+    color: black;
+    width: 100%;
+}
+.end {
+    border-radius: 15px;
+    background-color: #0047E6;
+    text-align: center;
+    margin: auto;
+}
+.end p {
+    color: white;
+}
+.final {
+    display: flex;
+    color: #0047E6;
+    margin: 50px;
+    width: 100%;
+    flex-direction: column;
+    align-items: left
+
+}
+.final p {
+    color: black;
+}
+.final-2 {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    margin: 50px;
+    padding: 0 50px;
+}
+.flex-container-plus {
+    display: flex;
+ background-color: #f8f8fa;
+width: 1200px;
+text-align: left; margin: auto;
+border-radius: 15px;
+gap: 28px;
+align-items: left; 
+flex-direction: column;
+padding: 5px;
+}
+.flex-container-plus li {
+    color: black;
+}
+h3 {
+    color: #0047E6;
+}
